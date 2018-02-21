@@ -12,34 +12,33 @@ public class VirtualButtonHop : MonoBehaviour,
     public AudioClip electroSong;
 
     private VirtualButtonBehaviour btn;
-    private int hopDir = 1;
+    private int hopDir = 0;
 
     private void Start()
     {
         btn = GetComponent<VirtualButtonBehaviour>();
         btn.RegisterEventHandler(this);
+        anim.SetInteger("hop", -1);
     }
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         audio.clip = electroSong;
         audio.Play();
-        StartCoroutine(hopCoroutine());
+        StartCoroutine(WaitForAnimToEnd());
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
         audio.Stop();
-        StopCoroutine(hopCoroutine());
+        anim.SetTrigger("die");
     }
 
-    private IEnumerator hopCoroutine()
+    private IEnumerator WaitForAnimToEnd()
     {
-        while (true)
-        {
-            anim.SetInteger("hop" , hopDir);
-            hopDir = (hopDir + 1) % 4;
-            yield return new WaitForSeconds(0.5f);   
-        }
+        anim.SetInteger("hop", hopDir);
+        hopDir = (hopDir + 1) % 4;
+        yield return new WaitForSeconds(0.1f);
+        anim.SetInteger("hop", -1);
     }
 }

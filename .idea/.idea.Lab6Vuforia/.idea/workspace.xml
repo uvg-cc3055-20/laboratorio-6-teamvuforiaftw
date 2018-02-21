@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5144bfcd-49ab-4bd6-bedf-e1da546be518" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab6Vuforia/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Lab6Vuforia/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab6Vuforia/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Lab6Vuforia/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VirtualButtonHop.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VirtualButtonHop.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/mainScene.unity" afterPath="$PROJECT_DIR$/Assets/_Scenes/mainScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/living birds/animations/birdAnimatorController.controller" afterPath="$PROJECT_DIR$/Assets/living birds/animations/birdAnimatorController.controller" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,17 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="ARCamera.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ARCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="0">
               <caret line="9" column="93" lean-forward="false" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
-              <folding>
-                <marker date="1519219104286" expanded="false" signature="6:93" ph="..." />
-                <marker date="1519219104286" expanded="true" signature="133:268" ph="{...}" />
-                <marker date="1519219104286" expanded="true" signature="160:266" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,16 +46,15 @@
       <file leaf-file-name="VirtualButtonHop.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VirtualButtonHop.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="154">
+              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
-                <marker date="1519225632323" expanded="true" signature="6:123" ph="..." />
-                <marker date="1519225632323" expanded="true" signature="202:1030" ph="{...}" />
-                <marker date="1519225632323" expanded="true" signature="389:495" ph="{...}" />
-                <marker date="1519225632323" expanded="true" signature="555:663" ph="{...}" />
-                <marker date="1519225632323" expanded="true" signature="724:797" ph="{...}" />
-                <marker date="1519225632323" expanded="true" signature="837:1028" ph="{...}" />
-                <marker date="1519225632323" expanded="true" signature="864:1022" ph="{...}" />
+                <marker date="1519232702436" expanded="false" signature="6:123" ph="..." />
+                <marker date="1519232702436" expanded="true" signature="202:1046" ph="{...}" />
+                <marker date="1519232702436" expanded="true" signature="389:531" ph="{...}" />
+                <marker date="1519232702436" expanded="true" signature="591:703" ph="{...}" />
+                <marker date="1519232702436" expanded="true" signature="764:830" ph="{...}" />
+                <marker date="1519232702436" expanded="true" signature="874:1044" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,6 +68,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VirtualButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VirtualButtonHop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ARCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -77,6 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ARCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VirtualButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VirtualButtonHop.cs" />
       </list>
     </option>
@@ -159,11 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519219053733</updated>
       <workItem from="1519219064881" duration="5821000" />
+      <workItem from="1519229820399" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5821000" />
+    <option name="totallyTimeSpent" value="8702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,25 +180,25 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -216,11 +217,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="93" lean-forward="false" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
-          <folding>
-            <marker date="1519219104286" expanded="false" signature="6:93" ph="..." />
-            <marker date="1519219104286" expanded="true" signature="133:268" ph="{...}" />
-            <marker date="1519219104286" expanded="true" signature="160:266" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -240,16 +237,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VirtualButtonHop.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="704">
           <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
-            <marker date="1519225632323" expanded="true" signature="6:123" ph="..." />
-            <marker date="1519225632323" expanded="true" signature="202:1030" ph="{...}" />
-            <marker date="1519225632323" expanded="true" signature="389:495" ph="{...}" />
-            <marker date="1519225632323" expanded="true" signature="555:663" ph="{...}" />
-            <marker date="1519225632323" expanded="true" signature="724:797" ph="{...}" />
-            <marker date="1519225632323" expanded="true" signature="837:1028" ph="{...}" />
-            <marker date="1519225632323" expanded="true" signature="864:1022" ph="{...}" />
+            <marker date="1519232702436" expanded="false" signature="6:123" ph="..." />
+            <marker date="1519232702436" expanded="true" signature="202:1046" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="389:531" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="591:703" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="764:830" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="874:1044" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ARCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="93" lean-forward="false" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VirtualButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1519223458657" expanded="true" signature="6:93" ph="..." />
+            <marker date="1519223458657" expanded="true" signature="165:620" ph="{...}" />
+            <marker date="1519223458657" expanded="true" signature="259:365" ph="{...}" />
+            <marker date="1519223458657" expanded="true" signature="425:488" ph="{...}" />
+            <marker date="1519223458657" expanded="true" signature="559:618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterTime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <marker date="1519232134069" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519232134069" expanded="true" signature="125:239" ph="{...}" />
+            <marker date="1519232134069" expanded="true" signature="183:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VirtualButtonHop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <marker date="1519232702436" expanded="false" signature="6:123" ph="..." />
+            <marker date="1519232702436" expanded="true" signature="202:1046" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="389:531" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="591:703" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="764:830" ph="{...}" />
+            <marker date="1519232702436" expanded="true" signature="874:1044" ph="{...}" />
           </folding>
         </state>
       </provider>

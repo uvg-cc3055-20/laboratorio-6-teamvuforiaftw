@@ -54,6 +54,7 @@
         <e p="scripts" t="Include">
           <e p="ARCamera.cs" t="Include" />
           <e p="Bird.cs" t="Include" />
+          <e p="DestroyAfterTime.cs" t="Include" />
           <e p="VirtualButton.cs" t="Include" />
           <e p="VirtualButtonHop.cs" t="Include" />
         </e>
