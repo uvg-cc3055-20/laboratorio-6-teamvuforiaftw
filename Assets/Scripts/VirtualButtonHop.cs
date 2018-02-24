@@ -9,10 +9,8 @@ public class VirtualButtonHop : MonoBehaviour,
 {
     public Animator anim;
     public AudioSource audio;
-    public AudioClip electroSong;
 
     private VirtualButtonBehaviour btn;
-    private int hopDir = 0;
 
     private void Start()
     {
@@ -23,22 +21,12 @@ public class VirtualButtonHop : MonoBehaviour,
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        audio.clip = electroSong;
         audio.Play();
-        StartCoroutine(WaitForAnimToEnd());
+        anim.SetTrigger("peck");
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-        audio.Stop();
-        anim.SetTrigger("die");
-    }
-
-    private IEnumerator WaitForAnimToEnd()
-    {
-        anim.SetInteger("hop", hopDir);
-        hopDir = (hopDir + 1) % 4;
-        yield return new WaitForSeconds(0.1f);
-        anim.SetInteger("hop", -1);
+        
     }
 }

@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bird : MonoBehaviour {
+public class Bird : MonoBehaviour 
+{
 
     Animator anim;
     AudioSource audios;
 
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
         anim = GetComponent<Animator>();
         audios = GetComponent<AudioSource>();
 	}
